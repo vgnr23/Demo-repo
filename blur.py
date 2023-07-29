@@ -8,7 +8,7 @@ img = cv2.imread('sample/myface.jpg')
 # Averaging
 # You can change the kernel size as you want
 avging = cv2.blur(img,(20,20))
-print("Hello this is testing part")   
+   
 cv2.imshow('Averaging',avging)
 cv2.waitKey(0)
   
